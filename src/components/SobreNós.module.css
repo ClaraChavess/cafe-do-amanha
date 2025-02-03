@@ -1,0 +1,43 @@
+.aboutSection{
+    padding:50px 20px;
+    background-color: #f3e9e1;
+    color:#4a2c2a;
+    text-align:center;
+}
+
+.containerSobre{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.aboutSection h1{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color:#8b5e3c;
+}
+
+.aboutSection p{
+    font-family: 'Georgia',serif;
+    font-size:1.2rem;
+    line-height:1.6;
+    margin-bottom:30px;
+    text-align:justify;/*texto justificado*/
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 80%; /*limita a largura do texto*/
+}
+
+.carousel{
+    margin-top:30px;
+}
+
+@media (max-width:768px){
+    .aboutSection h1{
+        font-size:2rem;
+    }
+    .aboutSection p{
+        font-size:1rem;
+        max-width:90%; /*ajuste de largura no mobile*/
+    }
+}

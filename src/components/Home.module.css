@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+.imagem{
+    background-color: #8b5e3c;
+    height: 100vh;
+    background: url(imagens/graos.jpg);
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0; 
+
+}
+
+.containerHome{ 
+    font-family: Poppins;
+    color: #fff; 
+}
+
+.containerHome h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0; 
+    font-size:6vh ;
+}
+.containerHome{
+    margin-bottom: 22vh;
+}
+
+.containerHome p{
+    margin-bottom: 6vh;
+}
